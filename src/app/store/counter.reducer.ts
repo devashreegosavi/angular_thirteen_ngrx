@@ -1,3 +1,4 @@
 import { createReducer } from "@ngrx/store";
 
-const counterReducer = createReducer
+const initialState = 0;
+const counterReducer = createReducer();
